@@ -9,6 +9,7 @@ ENV JUMANPP_VERSION 1.02
 ENV JUMAN_VERSION 7.01
 ENV KNP_VERSION 4.19
 
+# apt update and upgrade
 RUN sudo apt-get update && sudo apt-get -y upgrade
 RUN sudo apt-get -y install libboost-dev google-perftools libgoogle-perftools-dev
 RUN sudo apt-get -y install gcc g++ make bzip2
